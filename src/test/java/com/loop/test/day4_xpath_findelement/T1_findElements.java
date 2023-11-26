@@ -14,6 +14,8 @@ public class T1_findElements {
         3- Locate all the links in the page.
          */
 
+
+        
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://www.nba.com");
