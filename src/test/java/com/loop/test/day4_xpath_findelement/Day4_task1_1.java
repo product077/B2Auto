@@ -19,7 +19,7 @@
 //        driver.get("https://beta.docuport.app/login?redirect=%2F");
 //
 //        driver.findElement(By.cssSelector("button[type='text']")).sendKeys((DocuportConstants.USERNAME_CLIENT));
-//        driver.findElement(By.cssSelector("button[type='password']")).sendKeys((DocuportConstants.PASSWORD_DOCUPORT_CLIENT, Keys.ENTER);
+//        driver.findElement(By.cssSelector("button[type='password']")).sendKeys(DocuportConstants.PASSWORD).;
 //
 //        Thread.sleep(3000);
 //        driver.findElement(By.cssSelector("button[type='submit']")).click();
