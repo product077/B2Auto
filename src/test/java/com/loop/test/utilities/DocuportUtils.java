@@ -1,6 +1,5 @@
 package com.loop.test.utilities;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -67,4 +66,7 @@ public class DocuportUtils {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 }
+
+
+
 
