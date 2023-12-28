@@ -1,4 +1,4 @@
-//package com.loop.test.tasks.day9_tasks;
+//package com.loop.test.day9_tasks;
 //
 //import com.github.javafaker.Faker;
 //import org.openqa.selenium.By;
