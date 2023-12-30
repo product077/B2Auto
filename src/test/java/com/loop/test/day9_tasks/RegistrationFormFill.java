@@ -55,7 +55,7 @@ public class RegistrationFormFill {
         WebElement submitButton = driver.findElement(By.xpath("//button[@type='submit']"));
         submitButton.click();
 
-        Thread.sleep(5000); // Waiting for 5 seconds just to observe the result (not recommended in actual tests)
+        Thread.sleep(3000); // Waiting for 5 seconds just to observe the result (not recommended in actual tests)
 
         // Close the browser (consider using a proper teardown mechanism like in testing frameworks)
         driver.quit();
