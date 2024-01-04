@@ -24,6 +24,8 @@ public class T1_upload {
         WebElement chooseFile = Driver.getDriver().findElement(By.id("uploadfile_0"));
       //  String path = "/Users/nsh/Desktop/note.txt";
         String path = "C:\\Users\\aland\\OneDrive\\Desktop\\JAVA 08.13.23.txt";
+     //string path =   " C:\\Users\\aland\\OneDrive\\Desktop\\5._Unit_4_Assessment_will_cover_everything_up_to_this_point.pdf";
+      // String path = " C:\Users\aland\OneDrive\Desktop\My Notes\1. Class Notes.txt";
         chooseFile.sendKeys(path);
         WebElement checkBox = Driver.getDriver().findElement(By.id("terms"));
         checkBox.click();
